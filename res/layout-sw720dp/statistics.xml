@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scroll_view"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#FFFFFF">
+
+    <LinearLayout
+        android:id="@+id/Statistics" 
+        style="@style/linear_layout" >
+		
+        <TextView 
+            android:id="@+id/stats"  
+            style="@style/textView_10inch"
+            android:textSize="60sp"
+            android:gravity="center_horizontal"
+            android:text="@+id/stats" />
+        
+        <TextView
+            android:id="@+id/lab_all_plates"
+            style="@style/textView_10inch"
+            android:paddingTop="30dp"
+            android:text="@+id/lab_all_plates" />
+        
+        <TextView
+            android:id="@+id/all_plates"
+            style="@style/textView_10inch"
+            android:textStyle="normal"
+            android:textSize="42sp"
+            android:text="@+id/all_plates" />
+        
+        <TextView
+            android:id="@+id/lab_eu_plates"
+            style="@style/textView_10inch"
+            android:paddingTop="30dp"
+            android:text="@+id/lab_eu_plates" />
+        
+        <TextView
+            android:id="@+id/eu_plates"
+            style="@style/textView_10inch"
+            android:textStyle="normal"
+            android:textSize="42sp"
+            android:text="@+id/eu_plates" />
+    
+        <TextView
+            android:id="@+id/lab_rotw_plates"
+            style="@style/textView_10inch"
+            android:paddingTop="30dp"
+            android:text="@+id/lab_rotw_plates" />
+        
+        <TextView
+            android:id="@+id/rotw_plates"
+            style="@style/textView_10inch"
+            android:textStyle="normal"
+            android:textSize="42sp"
+            android:text="@+id/rotw_plates" />
+        
+        <TextView
+            android:id="@+id/lab_corr_ans"
+            style="@style/textView_10inch"
+            android:paddingTop="30dp"
+            android:text="@+id/lab_corr_ans" />
+        
+        <TextView
+            android:id="@+id/corr_ans"
+            style="@style/textView"
+            android:textStyle="normal"
+            android:textSize="42sp"
+            android:text="@+id/corr_ans" />
+        
+        <TextView
+            android:id="@+id/lab_wrg_ans"
+            style="@style/textView_10inch"
+            android:paddingTop="30dp"
+            android:text="@+id/lab_wrg_ans" />
+        
+        <TextView
+            android:id="@+id/wrg_ans"
+            style="@style/textView_10inch"
+            android:textStyle="normal"
+            android:textSize="42sp"
+            android:text="@+id/wrg_ans" />
+        
+        <TextView
+            android:id="@+id/lab_most_plate"
+            style="@style/textView_10inch"
+            android:paddingTop="30dp"
+            android:text="@+id/lab_most_plate" />
+        
+        <TextView
+            android:id="@+id/most_plate"
+            style="@style/textView_10inch"
+            android:textStyle="normal"
+            android:textSize="42sp"
+            android:text="@+id/most_plate" />
+        
+        <TextView
+            android:id="@+id/lab_least_plate"
+            style="@style/textView_10inch"
+            android:paddingTop="30dp"
+            android:text="@+id/lab_least_plate" />
+        
+        <TextView
+            android:id="@+id/least_plate"
+            style="@style/textView_10inch"
+            android:textStyle="normal"
+            android:textSize="42sp"
+            android:text="@+id/least_plate" />
+        
+        <TextView
+            android:id="@+id/lab_most_eu_plate"
+            style="@style/textView_10inch"
+            android:paddingTop="30dp"
+            android:text="@+id/lab_most_eu_plate" />
+        
+        <TextView
+            android:id="@+id/most_eu_plate"
+            style="@style/textView_10inch"
+            android:textStyle="normal"
+            android:textSize="42sp"
+            android:text="@+id/most_eu_plate" />
+        
+        <TextView
+            android:id="@+id/lab_least_eu_plate"
+            style="@style/textView_10inch"
+            android:paddingTop="30dp"
+            android:text="@+id/lab_least_eu_plate" />
+        
+        <TextView
+            android:id="@+id/least_eu_plate"
+            style="@style/textView_10inch"
+            android:textStyle="normal"
+            android:textSize="42sp"
+            android:text="@+id/least_eu_plate" />
+        
+        <TextView
+            android:id="@+id/lab_most_rotw_plate"
+            style="@style/textView_10inch"
+            android:paddingTop="30dp"
+            android:text="@+id/lab_most_rotw_plate" />
+        
+        <TextView
+            android:id="@+id/most_rotw_plate"
+            style="@style/textView_10inch"
+            android:textStyle="normal"
+            android:textSize="42sp"
+            android:text="@+id/most_rotw_plate" />
+        
+        <TextView
+            android:id="@+id/lab_least_rotw_plate"
+            style="@style/textView_10inch"
+            android:paddingTop="30dp"
+            android:text="@+id/lab_least_eu_plate" />
+        
+        <TextView
+            android:id="@+id/least_rotw_plate"
+            style="@style/textView_10inch"
+            android:textStyle="normal"
+            android:textSize="42sp"
+            android:text="@+id/least_rotw_plate" />
+        
+        <TextView
+            android:id="@+id/lab_most_lang"
+            style="@style/textView_10inch"
+            android:paddingTop="30dp"
+            android:text="@+id/lab_most_lang" />
+        
+        <TextView
+            android:id="@+id/most_lang"
+            style="@style/textView_10inch"
+            android:textStyle="normal"
+            android:textSize="42sp"
+            android:text="@+id/most_lang" />
+        
+        <TextView
+            android:id="@+id/lab_least_lang"
+            style="@style/textView_10inch"
+            android:paddingTop="30dp"
+            android:text="@+id/lab_leas_lang" />
+        
+        <TextView
+            android:id="@+id/least_lang"
+            style="@style/textView_10inch"
+            android:textStyle="normal"
+            android:textSize="42sp"
+            android:text="@+id/least_lang" />
+        
+        <TextView
+            android:id="@+id/lab_most_theme"
+            style="@style/textView_10inch"
+            android:paddingTop="30dp"
+            android:text="@+id/lab_most_theme" />
+        
+        <TextView
+            android:id="@+id/most_theme"
+            style="@style/textView_10inch"
+            android:textStyle="normal"
+            android:textSize="42sp"
+            android:text="@+id/most_theme" />
+        
+        <TextView
+            android:id="@+id/lab_least_theme"
+            style="@style/textView_10inch"
+            android:paddingTop="30dp"
+            android:text="@+id/lab_leas_theme" />
+        
+        <TextView
+            android:id="@+id/least_theme"
+            style="@style/textView_10inch"
+            android:textStyle="normal"
+            android:textSize="42sp"
+            android:text="@+id/least_theme" />
+        
+        <TextView
+            android:id="@+id/lab_most_range"
+            style="@style/textView_10inch"
+            android:paddingTop="30dp"
+            android:text="@+id/lab_most_range" />
+        
+        <TextView
+            android:id="@+id/most_range"
+            style="@style/textView_10inch"
+            android:textStyle="normal"
+            android:textSize="42sp"
+            android:text="@+id/most_range" />
+        
+        <TextView
+            android:id="@+id/lab_least_range"
+            style="@style/textView_10inch"
+            android:paddingTop="30dp"
+            android:text="@+id/lab_leas_range" />
+        
+        <TextView
+            android:id="@+id/least_range"
+            style="@style/textView_10inch"
+            android:textStyle="normal"
+            android:textSize="42sp"
+            android:text="@+id/least_range" />
+        
+    	<!-- Button -->
+	   	<Button 
+		    android:id="@+id/back"
+			style="@style/button_10inch"
+			android:text="@+id/back" />   	
+        
+    </LinearLayout>
+</ScrollView>

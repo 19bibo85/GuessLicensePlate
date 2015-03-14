@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">	    
+	    <ListPreference
+	        android:key="pref_language"	         
+	        android:entries="@array/setting_language"
+	        android:entryValues="@array/setting_language_val" />
+	    
+	    <ListPreference
+	        android:key="pref_theme"
+	        android:entries="@array/setting_theme_en"
+	        android:entryValues="@array/setting_theme_val" />
+	    
+	    <ListPreference
+	        android:key="pref_range"
+	        android:entries="@array/setting_range_en"
+	        android:entryValues="@array/setting_range_val" />   
+        
+	    <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="pref_update">
+        </CheckBoxPreference>
+        
+	    <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="pref_sound" >
+        </CheckBoxPreference>
+        
+        <com.guess.license.plate.OptionDialogPreference
+	        android:key="pref_clear" />
+</PreferenceScreen>

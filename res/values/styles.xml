@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    
+    <style name="GuessLicensePlateTheme" parent="Theme.Sherlock"></style>
+	
+    <style name="WindowTitleBackground">     
+        <item name="android:typeface">sans</item>
+        <item name="android:textStyle">normal|italic</item>
+        <item name="android:textSize">12sp</item>
+    	<item name="android:textColor">#FFFFFF</item>
+    	<item name="android:background">@drawable/title_background_blue</item> 
+	</style>
+	
+    <!-- Scroll -->
+    <style name="scroll_view">
+     <item name="android:layout_width">fill_parent</item>
+     <item name="android:layout_height">fill_parent</item>
+     <item name="android:background">@drawable/background_001</item>
+    </style>
+     
+    <!-- Layout -->
+    <!-- handset -->
+    <style name="linear_layout">
+    	<item name="android:layout_width">fill_parent</item>
+    	<item name="android:layout_height">fill_parent</item>
+    	<item name="android:orientation">vertical</item>
+    	<item name="android:gravity">center_horizontal</item>
+    	<item name="android:padding">10dp</item>    		
+    </style>
+    
+    <!-- 7 inch -->
+     <style name="linear_layout_7inch">
+    	<item name="android:layout_width">fill_parent</item>
+    	<item name="android:layout_height">fill_parent</item>
+    	<item name="android:orientation">vertical</item>
+    	<item name="android:gravity">center_horizontal</item>
+    	<item name="android:padding">20dp</item>    		
+    </style>
+    
+     <!-- 10 inch -->
+     <style name="linear_layout_10inch">
+    	<item name="android:layout_width">fill_parent</item>
+    	<item name="android:layout_height">fill_parent</item>
+    	<item name="android:orientation">vertical</item>
+    	<item name="android:gravity">center_horizontal</item>
+    	<item name="android:padding">30dp</item>    		
+    </style>
+    
+    <!-- List Layout -->
+    <!-- handset -->
+    <style name="list_layout">
+        <item name="android:layout_width">fill_parent</item>
+    	<item name="android:layout_height">fill_parent</item>
+    	<item name="android:orientation">vertical</item>
+    	<item name="android:gravity">center_horizontal</item>
+    	<item name="android:padding">5dp</item>
+    	<item name="android:background">#FFFFFF</item>  
+    </style>
+    
+    <!-- 7inch -->
+    <style name="list_layout_7inch">
+        <item name="android:layout_width">fill_parent</item>
+    	<item name="android:layout_height">fill_parent</item>
+    	<item name="android:orientation">vertical</item>
+    	<item name="android:gravity">center_horizontal</item>
+    	<item name="android:padding">10dp</item>
+    	<item name="android:background">#FFFFFF</item>  
+    </style>
+    
+    <!-- 10inch -->
+    <style name="list_layout_10inch">
+        <item name="android:layout_width">fill_parent</item>
+    	<item name="android:layout_height">fill_parent</item>
+    	<item name="android:orientation">vertical</item>
+    	<item name="android:gravity">center_horizontal</item>
+    	<item name="android:padding">15dp</item>
+    	<item name="android:background">#FFFFFF</item>  
+    </style>
+    
+    <!-- Table Layout -->
+    <!-- handset -->
+    <style name="table_layout">
+    	<item name="android:layout_width">fill_parent</item>
+    	<item name="android:layout_height">fill_parent</item>
+    	<item name="android:shrinkColumns">*</item>
+    	<item name="android:stretchColumns">*</item>
+    	<item name="android:orientation">vertical</item>
+    	<item name="android:gravity">center_horizontal</item>
+    	<item name="android:padding">10dp</item>	
+    </style>
+    
+    <!-- 7inch -->
+    <style name="table_layout_7inch">
+    	<item name="android:layout_width">fill_parent</item>
+    	<item name="android:layout_height">fill_parent</item>
+    	<item name="android:shrinkColumns">*</item>
+    	<item name="android:stretchColumns">*</item>
+    	<item name="android:orientation">vertical</item>
+    	<item name="android:gravity">center_horizontal</item>
+    	<item name="android:padding">20dp</item>	
+    </style>
+    
+    <!-- 10inch -->
+    <style name="table_layout_10inch">
+    	<item name="android:layout_width">fill_parent</item>
+    	<item name="android:layout_height">fill_parent</item>
+    	<item name="android:shrinkColumns">*</item>
+    	<item name="android:stretchColumns">*</item>
+    	<item name="android:orientation">vertical</item>
+    	<item name="android:gravity">center_horizontal</item>
+    	<item name="android:padding">30dp</item>	
+    </style>
+    
+    <!-- General Textview -->
+    <!-- handset -->
+	<style name="textView">
+	    <item name="android:layout_width">fill_parent</item>
+	    <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center_vertical|left</item>
+        <item name="android:layout_marginTop">5dp</item>
+		<item name="android:textStyle">bold</item>
+		<item name="android:textColor">#000000</item>
+		<item name="android:textSize">18sp</item>
+	</style>
+	
+	<!-- 7 inch -->
+	<style name="textView_7inch">
+	    <item name="android:layout_width">fill_parent</item>
+	    <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center_vertical|left</item>
+        <item name="android:layout_marginTop">10dp</item>
+		<item name="android:textStyle">bold</item>
+		<item name="android:textColor">#000000</item>
+		<item name="android:textSize">36sp</item>
+	</style>
+	
+	<!-- 10 inch -->
+	<style name="textView_10inch">
+	    <item name="android:layout_width">fill_parent</item>
+	    <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center_vertical|left</item>
+        <item name="android:layout_marginTop">15dp</item>
+		<item name="android:textStyle">bold</item>
+		<item name="android:textColor">#000000</item>
+		<item name="android:textSize">54sp</item>
+	</style>
+	
+	<!-- Stats textview -->
+	<!-- handset -->
+	<style name="textViewStats">
+	    <item name="android:layout_width">wrap_content</item>
+	    <item name="android:layout_height">wrap_content</item>
+		<item name="android:textStyle">bold</item>
+		<item name="android:textColor">#000000</item>
+		<item name="android:textSize">18sp</item>
+	</style>
+	
+	<!-- 7 inch -->
+	<style name="textViewStats_7inch">
+	    <item name="android:layout_width">wrap_content</item>
+	    <item name="android:layout_height">wrap_content</item>
+		<item name="android:textStyle">bold</item>
+		<item name="android:textColor">#000000</item>
+		<item name="android:textSize">36sp</item>
+	</style>
+	
+	<!-- 10 inch -->
+	<style name="textViewStats_10inch">
+	    <item name="android:layout_width">wrap_content</item>
+	    <item name="android:layout_height">wrap_content</item>
+		<item name="android:textStyle">bold</item>
+		<item name="android:textColor">#000000</item>
+		<item name="android:textSize">54sp</item>
+	</style>
+	
+	<!-- List textview -->
+	<!-- handset -->
+	<style name="textViewList">
+	    <item name="android:layout_width">wrap_content</item>
+	    <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+		<item name="android:textStyle">bold</item>
+		<item name="android:textColor">#000000</item>
+		<item name="android:textSize">18sp</item>
+	</style>
+	
+	<!-- 7inch -->
+	<style name="textViewList_7inch">
+	    <item name="android:layout_width">wrap_content</item>
+	    <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+		<item name="android:textStyle">bold</item>
+		<item name="android:textColor">#000000</item>
+		<item name="android:textSize">36sp</item>
+	</style>
+	
+	<!-- 10inch -->
+	<style name="textViewList_10inch">
+	    <item name="android:layout_width">wrap_content</item>
+	    <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+		<item name="android:textStyle">bold</item>
+		<item name="android:textColor">#000000</item>
+		<item name="android:textSize">54sp</item>
+	</style>
+	
+	<!-- Button -->
+	<!-- handset -->
+	<style name="button">
+	    <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_marginTop">7dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#FFFFFF</item>  
+	</style>
+	
+	<!-- 7 inch -->
+	<style name="button_7inch">
+	    <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_marginTop">14dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">32sp</item>
+        <item name="android:textColor">#FFFFFF</item>  
+	</style>
+	
+	<!-- 10 inch -->
+	<style name="button_10inch">
+	    <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_marginTop">21dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">48sp</item>
+        <item name="android:textColor">#FFFFFF</item>  
+	</style>
+	
+	<!-- Image -->
+	<!-- handset -->
+	<style name="image">	    
+	    <item name="android:layout_width">wrap_content</item>	    
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">5dp</item>        
+  		<item name="android:src">@drawable/eu_abk_001</item>
+    </style>
+    
+	<!-- 7inch -->
+	<style name="image_7inch">	    
+	    <item name="android:layout_width">wrap_content</item>	    
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">10dp</item>        
+  		<item name="android:src">@drawable/eu_abk_001</item>
+    </style>
+    
+	<!-- 10inch -->
+	<style name="image_10inch">	    
+	    <item name="android:layout_width">wrap_content</item>	    
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">15dp</item>        
+  		<item name="android:src">@drawable/eu_abk_001</item>
+    </style>
+    
+	<!-- Table TextView -->
+	<!-- handset -->
+	<style name="TableRow">
+	    <item name="android:layout_height">wrap_content</item>
+	    <item name="android:layout_gravity">left</item>
+	    <item name="android:padding">6dp</item>	
+	    <item name="android:textStyle">bold</item>
+	    <item name="android:textSize">18sp</item>
+	    <item name="android:textColor">#000000</item>
+	</style>
+	
+	<!-- 7 inch -->
+	<style name="TableRow_7inch">
+	    <item name="android:layout_height">wrap_content</item>
+	    <item name="android:layout_gravity">left</item>
+	    <item name="android:padding">12dp</item>	
+	    <item name="android:textStyle">bold</item>
+	    <item name="android:textSize">36sp</item>
+	    <item name="android:textColor">#000000</item>
+	</style>
+	
+	<!-- 10 inch -->
+	<style name="TableRow_10inch">
+	    <item name="android:layout_height">wrap_content</item>
+	    <item name="android:layout_gravity">left</item>
+	    <item name="android:padding">18dp</item>	
+	    <item name="android:textStyle">bold</item>
+	    <item name="android:textSize">54sp</item>
+	    <item name="android:textColor">#000000</item>
+	</style>
+	
+	<!-- Logo -->
+	<!-- handset -->
+	<style name="logo">
+	    <item name="android:layout_width">wrap_content</item>	    
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">5dp</item>        
+  		<item name="android:src">@drawable/logo</item>
+    </style>
+    
+    <!-- 7 inch -->
+	<style name="logo_7inch">
+	    <item name="android:layout_width">wrap_content</item>	    
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">10dp</item>        
+  		<item name="android:src">@drawable/logo</item>
+    </style>
+    
+	<!-- 10 inch -->
+	<style name="logo_10inch">
+	    <item name="android:layout_width">wrap_content</item>	    
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">15dp</item>        
+  		<item name="android:src">@drawable/logo</item>
+    </style>
+    
+	<!-- Ad -->
+	<!-- handset -->
+	<style name="inmobi_ad">
+	    <item name="android:layout_width">fill_parent</item>	    
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">7dp</item>
+        <item name="android:gravity">center</item>
+    </style>
+    
+	<!-- 7 inch -->
+	<style name="inmobi_ad_7inch">
+	    <item name="android:layout_width">fill_parent</item>	    
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">14dp</item>
+        <item name="android:gravity">center</item>
+    </style>
+    
+	<!-- 7 inch -->
+	<style name="inmobi_ad_10inch">
+	    <item name="android:layout_width">fill_parent</item>	    
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">21dp</item>
+        <item name="android:gravity">center</item>
+    </style>
+</resources>

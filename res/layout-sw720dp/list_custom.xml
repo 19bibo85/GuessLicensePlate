@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:id="@+id/list_layout"
+	style="@style/list_layout" >
+
+	<ImageView
+	    android:id="@+id/image"
+	    style="@style/image_10inch"
+	    android:contentDescription="@+id/image"
+	    android:scaleType="fitXY" />
+
+	<TextView 
+	    android:id="@+id/name" 
+	    style="@style/textViewList_10inch"
+		android:text="@+id/name"/>	
+	
+</LinearLayout>

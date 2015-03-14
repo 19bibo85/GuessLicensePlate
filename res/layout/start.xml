@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ScrollView 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scroll_view"
+    style="@style/scroll_view" >
+
+    <LinearLayout android:id="@+id/Start" style="@style/linear_layout" >
+
+        <TextView
+            android:id="@+id/time_limit"
+            style="@style/textView"
+            android:text="@+id/time_limit" />
+
+        <Button
+            android:id="@+id/easy"
+            style="@style/button"
+            android:text="@+id/easy" />
+
+        <Button
+            android:id="@+id/medium"
+            style="@style/button"
+            android:text="@+id/medium" />
+
+        <Button
+            android:id="@+id/hard"
+            style="@style/button"
+            android:text="@+id/hard" />
+
+        <TextView
+            android:id="@+id/no_time_limit"
+            style="@style/textView"
+            android:text="@+id/no_time_limit" />
+
+        <Button
+            android:id="@+id/all_plates"
+            style="@style/button"
+            android:text="@+id/all_plates" />
+
+        <Button
+            android:id="@+id/no_fault"
+            style="@style/button"
+            android:text="@+id/no_fault" />
+        
+        <com.inmobi.monetization.IMBanner
+		    android:id="@+id/adView"
+		    style="@style/inmobi_ad"
+	        adSize="15"
+			appId="47fdaff06b1c4a608814ddb615a3f064" />
+    </LinearLayout>
+
+</ScrollView>

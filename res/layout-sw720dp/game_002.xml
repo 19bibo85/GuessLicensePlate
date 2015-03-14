@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ScrollView 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:id="@+id/scroll_view"
+	style="@style/scroll_view">
+
+	<LinearLayout 
+	    android:id="@+id/Game_002" 
+	    style="@style/linear_layout_10inch">
+
+		<ImageView
+		    android:id="@+id/image_plate"
+		    style="@style/image_10inch"
+		    android:contentDescription="@+id/image_plate" />
+
+		<LinearLayout  
+		    android:layout_width="fill_parent"
+			android:layout_height="wrap_content" 
+			android:gravity="right"
+			android:padding="15dp">
+
+			<TextView 
+			    android:id="@+id/progress" 
+			    style="@style/textView_10inch"
+				android:layout_width="wrap_content" 
+				android:text="@+id/progress" />
+
+			<TextView 
+			    android:id="@+id/total" 
+			    style="@style/textView_10inch"
+				android:layout_width="wrap_content" 
+				android:text="@+id/total" />
+		</LinearLayout>
+
+		<Button 
+		    android:id="@+id/button1" 
+		    style="@style/button_10inch"
+			android:text="@id/button1" />
+
+		<Button 
+		    android:id="@+id/button2" 
+		    style="@style/button_10inch"
+			android:text="@id/button2" />
+
+		<Button 
+		    android:id="@+id/button3" 
+		    style="@style/button_10inch"
+			android:text="@id/button3" />
+
+		<Button 
+		    android:id="@+id/button4" 
+		    style="@style/button_10inch"
+			android:text="@id/button4" />
+		
+		<com.inmobi.monetization.IMBanner
+		    android:id="@+id/adView"
+		    style="@style/inmobi_ad_10inch"
+		    adSize="11"
+			appId="47fdaff06b1c4a608814ddb615a3f064" />
+	</LinearLayout>
+
+</ScrollView>

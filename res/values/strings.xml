@@ -1,0 +1,1014 @@
+<resources>
+    <string name="ad_unit_id">ca-app-pub-7418392803441824/5904192998</string>
+    
+	<!-- Application name -->
+    <string name="app_name">Guess Plate</string>
+    <string name="main_Activity">Guess Plate</string>
+    
+    <!-- ACTION BAR -->
+    <string name="action_settings">Settings</string>
+    <string name="action_about">About</string>
+    
+    <!-- SPALSHSCREEN -->
+    <!-- en -->
+	<string-array name="splash_en">
+       <item>Loading</item>
+    </string-array>
+    <!-- it -->
+	<string-array name="splash_it">
+       <item>Caricamento</item>
+    </string-array>
+    <!-- es -->
+	<string-array name="splash_es">
+       <item>Cargando</item>
+    </string-array>
+    <!-- fr -->
+	<string-array name="splash_fr">
+       <item>Chargement</item>
+    </string-array>
+    <!-- pt -->
+	<string-array name="splash_pt">
+       <item>Carregamento</item>
+    </string-array>
+    
+	
+	
+    <!-- en -->
+	 <string-array name="splash_alert_message_en">
+        <item>Alert</item>
+        <item>Attention! Initial data have not been loaded correctly! Please try to download and install again the app.</item>
+        <item>Ok</item>
+     </string-array>
+    <!-- it -->
+    <string-array name="splash_alert_message_it">
+        <item>Avviso</item>
+        <item>Attenzione! I dati iniziali non sono stati caricati correttamente! Si prega di scaricare e installare l\'app nuovamente.</item>
+        <item>Ok</item>
+     </string-array>
+    <!-- es -->
+    <string-array name="splash_alert_message_es">
+        <item>Aviso</item>
+        <item>¡Atención! Los datos iniciales no se han cargado correctamente! Por favor, intente descargar e instalar de nuevo la aplicación.</item>
+        <item>Ok</item>
+     </string-array>
+    <!-- fr -->
+    <string-array name="splash_alert_message_fr">
+        <item>Avis</item>
+        <item>Attention! Les données initiales n\'ont pas été chargé correctement! S\'il vous plaît essayez de télécharger et installer l\'application à nouveau.</item>
+        <item>Ok</item>
+     </string-array>
+    <!-- pt -->
+    <string-array name="splash_alert_message_pt">
+        <item>Aviso</item>
+        <item>Atenção! Os dados iniciais não foram carregados corretamente! Por favor, tente baixar e instalar novamente o app.</item>
+        <item>Ok</item>
+     </string-array>
+     
+    <!-- MAIN -->
+    <!-- en -->
+    <string-array name="main_en">
+        <item>Start</item>
+        <item>Best Scores</item>
+        <item>List</item>
+        <item>Settings</item>
+    </string-array>
+    
+    <!-- it -->
+    <string-array name="main_it">
+        <item>Partenza</item>
+        <item>Miglior Punteggi</item>
+        <item>Lista Targhe</item>
+        <item>Impostazioni</item>
+    </string-array>
+    
+    <!-- es -->
+    <string-array name="main_es">
+        <item>Iniciar</item>
+        <item>Mejores Resultados</item>
+        <item>Lista de Placa</item>
+        <item>Configuración</item>
+    </string-array>
+    
+    <!-- fr -->
+    <string-array name="main_fr">
+        <item>Commencer</item>
+        <item>Meilleurs Scores</item>
+        <item>Liste Plate</item>
+        <item>Réglages</item>
+    </string-array>
+    
+    <!-- pt -->
+    <string-array name="main_pt">
+        <item>Começar</item>
+        <item>Melhores Pontuações</item>
+        <item>Lista de Placa</item>
+        <item>Configurações</item>
+    </string-array>
+    
+    <!-- START -->
+    <!-- en -->
+    <string-array name="start_en">
+        <item>Easy</item>
+        <item>Medium</item>
+        <item>Hard</item>
+        <item>All Plates</item>
+        <item>No Fault</item>
+        <item>60 Sec</item>
+        <item>No Time Limit</item>
+    </string-array>
+    
+    <!-- it -->
+    <string-array name="start_it">
+        <item>Facile</item>
+        <item>Medio</item>
+        <item>Difficile</item>
+        <item>Tutte le targhe</item>
+        <item>Nessun errore</item>
+        <item>60 Sec</item>
+        <item>Senza limite di tempo</item>
+    </string-array>
+    
+    <!-- es -->
+    <string-array name="start_es">
+        <item>Fácil</item>
+        <item>Medio</item>
+        <item>Difícil</item>
+        <item>Todas las placas</item>
+        <item>Sin errores</item>
+        <item>60 Sec</item>
+        <item>Sin límite de tiempo</item>
+    </string-array>
+    
+    <!-- fr -->
+    <string-array name="start_fr">
+        <item>Facile</item>
+        <item>Moyenne</item>
+        <item>Dur</item>
+        <item>Toutes les plaques</item>
+        <item>Pas de faute</item>
+        <item>60 Sec</item>
+        <item>Aucune limite de temps</item>
+    </string-array>
+    
+    <!-- pt -->
+    <string-array name="start_pt">
+        <item>Fácil</item>
+        <item>Médio</item>
+        <item>Difícil</item>
+        <item>Todas as placas</item>
+        <item>Sem Falha</item>
+        <item>60 Sec</item>
+        <item>Sem limite de tempo</item>
+    </string-array>
+    
+    <!-- BEST SCORE -->
+    <!-- en -->
+    <string-array name="best_score_en">
+        <item>Best Scores</item>
+        <item>Easy</item>
+        <item>Medium</item>
+        <item>Hard</item>
+        <item>All Plates</item>
+        <item>No Fault</item>
+        <item>Back</item>
+        <item>Stats</item>
+    </string-array>
+    
+    <!-- it -->
+    <string-array name="best_score_it">
+        <item>Miglior Punteggi</item>
+        <item>Facile</item>
+        <item>Medio</item>
+        <item>Difficile</item>
+        <item>Tutte le targhe</item>
+        <item>Nessun errore</item>
+        <item>Indietro</item>
+        <item>Statistiche</item>
+    </string-array>
+    
+    <!-- es -->
+    <string-array name="best_score_es">
+        <item>Mejores Resultados</item>
+        <item>Fácil</item>
+        <item>Medio</item>
+        <item>Difícil</item>
+        <item>Todas las placas</item>
+        <item>Sin errores</item>
+        <item>Apoyar</item>
+        <item>Estadísticas</item>
+    </string-array>
+    
+    <!-- fr -->
+    <string-array name="best_score_fr">
+        <item>Meilleurs Scores</item>
+        <item>Facile</item>
+        <item>Moyenne</item>
+        <item>Dur</item>
+        <item>Toutes les plaques</item>
+        <item>Pas de faute</item>
+        <item>Arrière</item>
+        <item>Statistiques</item>
+    </string-array>
+    
+    <!-- pt -->
+    <string-array name="best_score_pt">
+        <item>Melhores Pontuações</item>
+        <item>Fácil</item>
+        <item>Médio</item>
+        <item>Difícil</item>
+        <item>Todas as placas</item>
+        <item>Sem Falha</item>
+        <item>Apoiar</item>
+        <item>Estatística</item>
+    </string-array>
+    
+    <!-- SETTING -->
+    <!-- Language -->
+    <string-array name="setting_language">
+        <item>English</item>
+        <item>Italiano</item>
+        <item>Español</item>
+        <item>Français</item>
+        <item>Português</item> 
+    </string-array>
+    
+    <string-array name="setting_language_val">
+        <item>en</item>
+        <item>it</item>
+        <item>es</item>
+        <item>fr</item>
+        <item>pt</item> 
+    </string-array>
+    
+    <!-- Theme -->
+    <!-- en -->
+    <string-array name="setting_theme_en">
+        <item>Blue</item>
+        <item>Black</item>
+        <item>Green</item>
+        <item>Orange</item>
+        <item>Purple</item>
+    </string-array>
+    
+    <!-- it -->
+    <string-array name="setting_theme_it">
+        <item>Blu</item>
+        <item>Nero</item>
+        <item>Verde</item>
+        <item>Arancione</item>
+        <item>Viola</item>
+    </string-array>
+    
+    <!-- es -->
+    <string-array name="setting_theme_es">
+        <item>Azul</item>
+        <item>Negro</item>
+        <item>Verde</item>
+        <item>Naranja</item>
+        <item>Pupura</item>
+    </string-array>
+    
+    <!-- fr -->
+    <string-array name="setting_theme_fr">
+        <item>Bleu</item>
+        <item>Noir</item>
+        <item>Vert</item>
+        <item>Orange</item>
+        <item>Pourpre</item>
+    </string-array>
+    
+    <!-- pt -->
+    <string-array name="setting_theme_pt">
+        <item>Azul</item>
+        <item>Preto</item>
+        <item>Verde</item>
+        <item>Laranja</item>
+        <item>Púrpura</item>
+    </string-array>
+    
+    <!-- values -->
+    <string-array name="setting_theme_val">
+       <item>Theme 1</item>
+       <item>Theme 2</item>
+       <item>Theme 3</item>
+       <item>Theme 4</item>
+       <item>Theme 5</item>
+    </string-array>
+    
+    <!-- Range -->
+    <!-- en -->
+    <string-array name="setting_range_en">
+        <item>Europe</item>
+        <item>Rest of the World</item>
+        <item>All</item>
+    </string-array>
+    
+    <!-- it -->
+    <string-array name="setting_range_it">
+        <item>Europa</item>
+        <item>Resto del mondo</item>
+        <item>Tutti</item>
+    </string-array>
+    
+    <!-- es -->
+    <string-array name="setting_range_es">
+        <item>Europa</item>
+        <item>Resto del Mundo</item>
+        <item>Todos</item>
+    </string-array>
+    
+    <!-- fr -->
+   <string-array name="setting_range_fr">
+        <item>Europe</item>
+        <item>Reste du monde</item>
+        <item>Tout</item>
+    </string-array>
+    
+    <!-- pt -->
+    <string-array name="setting_range_pt">
+        <item>Europa</item>
+        <item>Resto do Mundo</item>
+        <item>Todas</item>
+    </string-array>
+    
+    <!-- values -->
+    <string-array name="setting_range_val">
+        <item>Europe</item>
+        <item>ROTW</item>
+        <item>All</item>
+    </string-array>
+    
+    <!-- Update -->
+    <!-- en -->
+    <string-array name="setting_update_en">
+        <item>On</item>
+        <item>Off</item>
+    </string-array>
+    
+    <!-- it -->
+    <string-array name="setting_update_it">
+        <item>Attivati</item>
+        <item>Disattivati</item>
+    </string-array>
+    
+    <!-- es -->
+    <string-array name="setting_update_es">
+        <item>Encendido</item>
+        <item>Apagado</item>
+    </string-array>
+    
+    <!-- fr -->
+    <string-array name="setting_update_fr">
+        <item>Marche</item>
+        <item>Arrêt</item>
+    </string-array>
+    
+    <!-- pt -->
+    <string-array name="setting_update_pt">
+        <item>Ativado</item>
+        <item>Desligado</item>
+    </string-array>
+    
+    <!-- values -->
+    <string-array name="setting_update_val">
+        <item>true</item>
+        <item>false</item>
+    </string-array>
+    
+    <!-- Sound -->
+    <!-- en -->
+    <string-array name="setting_sound_en">
+        <item>On</item>
+        <item>Off</item>
+    </string-array>
+    
+    <!-- it -->
+    <string-array name="setting_sound_it">
+        <item>Attivato</item>
+        <item>Disattivato</item>
+    </string-array>
+    
+    <!-- es -->
+    <string-array name="setting_sound_es">
+        <item>Encendido</item>
+        <item>Apagado</item>
+    </string-array>
+    
+    <!-- fr -->
+    <string-array name="setting_sound_fr">
+        <item>Marche</item>
+        <item>Arrêt</item>
+    </string-array>
+    
+    <!-- pt -->
+    <string-array name="setting_sound_pt">
+        <item>Ativado</item>
+        <item>Desligado</item>
+    </string-array>
+    
+    <!-- values -->
+    <string-array name="setting_sound_val">
+        <item>true</item>
+        <item>false</item>
+    </string-array>
+    
+    <!-- Title -->
+    <!-- en -->
+    <string-array name="setting_title_en">
+        <item>Language</item>
+        <item>Theme</item>
+        <item>Range</item>
+        <item>Update</item>
+        <item>Sound</item>        
+        <item>Clear</item>
+    </string-array>
+    
+    <!-- it -->
+    <string-array name="setting_title_it">
+        <item>Lingua</item>
+        <item>Tema</item>
+        <item>Range</item>
+        <item>Aggiornamenti</item>
+        <item>Audio</item>        
+        <item>Resetta</item>
+    </string-array>
+    
+    <!-- es -->
+    <string-array name="setting_title_es">
+        <item>Idioma</item>
+        <item>Tema</item>
+        <item>Rango</item>
+        <item>Actualización</item>
+        <item>Sonido</item>        
+        <item>Borrar</item>
+    </string-array>
+    
+    <!-- fr -->
+    <string-array name="setting_title_fr">
+        <item>Langue</item>
+        <item>Thème</item>
+        <item>Plage</item>
+        <item>Mise à jour</item>
+        <item>Sonore</item>        
+        <item>Effacer</item>
+    </string-array>
+    
+    <!-- pt -->
+    <string-array name="setting_title_pt">
+        <item>Idioma</item>
+        <item>Tema</item>
+        <item>Faixa</item>
+        <item>Atualização</item>
+        <item>Som</item>        
+        <item>Apagar</item>
+    </string-array>
+    
+    <!-- Summary -->
+    <!-- en -->
+    <string-array name="setting_summary_en">
+        <item>The language selected is:</item>
+        <item>The theme selected is:</item>
+        <item>The range selected is:</item>
+        <item>The updates are:</item>
+        <item>The sound is:</item>        
+        <item>Clean all the set up preferences.</item>
+    </string-array>
+    
+    <!-- it -->
+    <string-array name="setting_summary_it">
+        <item>La lingua selezionata é:</item>
+        <item>Il tema selezionato é:</item>
+        <item>Il range selezionato é:</item>
+        <item>Gli aggiornamenti sono:</item>
+        <item>L\'audio é:</item>        
+        <item>Resetta tutte impostazioni salvate.</item>
+    </string-array>
+    
+    <!-- es -->
+    <string-array name="setting_summary_es">
+        <item>El idioma seleccionado es:</item>
+        <item>El tema seleccionado es:</item>
+        <item>El rango seleccionado es:</item>
+        <item>Los actualizaciones son:</item>
+        <item>El sonido es:</item>        
+        <item>Restablecer todas las configuraciones guardadas.</item>
+    </string-array>
+    
+    <!-- fr -->
+    <string-array name="setting_summary_fr">
+        <item>La langue choisie est:</item>
+        <item>Le thème choisi est:</item>
+        <item>La plage sélectionnée est</item>
+        <item>Les mises à jour sont:</item>
+        <item>Le son est:</item>        
+        <item>Réinitialiser tous les paramètres sauvegardés.</item>
+    </string-array>
+    
+    <!-- pt -->
+    <string-array name="setting_summary_pt">
+        <item>O idioma selecionado é:</item>
+        <item>O tema selecionado é:</item>
+        <item>A faixa selecionada é:</item>
+        <item>As atualizações são:</item>
+        <item>O áudio é</item>        
+        <item>Restaurar todas as configurações salvas.</item>
+    </string-array>
+    
+    <!-- Clear Message -->
+    <!-- en -->
+    <string-array name="clear_message_en">
+        <item>Are you sure to delete all the records?</item>
+        <item>Yes</item>
+        <item>No</item>
+    </string-array>
+    
+    <!-- it -->
+    <string-array name="clear_message_it">
+        <item>Sei sicuro di voler eliminare tutte le impostazioni salvate?</item>
+        <item>Si</item>
+        <item>No</item>
+    </string-array>
+    
+    <!-- es -->
+    <string-array name="clear_message_es">
+        <item>¿Estás seguro de que desea eliminar todos los ajustes guardados?</item>
+        <item>Sí</item>
+        <item>No</item>
+    </string-array>
+    
+    <!-- fr -->
+    <string-array name="clear_message_fr">
+        <item>Etes-vous sûr de vouloir supprimer tous les paramètres sauvegardés?</item>
+        <item>Oui</item>
+        <item>Non</item>
+    </string-array>
+    
+    <!-- pt -->
+    <string-array name="clear_message_pt">
+        <item>Tem certeza de que quer apagar todas as configurações salvas?</item>
+        <item>Sim</item>
+        <item>Não</item>
+    </string-array>
+    
+    <!-- SCORE -->
+    <!-- main -->
+    <string name="point_correct">* (+3)</string>
+    <string name="point_wrong">* (-2)</string>
+    
+    <!-- en -->
+    <string-array name="score_en">
+        <item>Game Over</item>
+        <item>Correct Answer</item>
+        <item>Wrong Answer</item>
+        <item>Score</item>
+        <item>Rate Corrects</item>
+        <item>Back</item>
+        <item>Review</item>
+    </string-array>
+    
+    <!-- it -->
+    <string-array name="score_it">
+        <item>Game Over</item>
+        <item>Risposte Corrette</item>
+        <item>Risposte Sbagliate</item>
+        <item>Punteggio</item>
+        <item>Percentuale Corrette</item>
+        <item>Indietro</item>
+        <item>Rivedi</item>
+    </string-array>
+    
+    <!-- es -->
+    <string-array name="score_es">
+        <item>Game Over</item>
+        <item>Respuesta Correctas</item>
+        <item>Respuesta Incorrectas</item>
+        <item>Puntuación</item>
+        <item>Canje Correctas</item>
+        <item>Atrás</item>
+        <item>Revisión</item>
+    </string-array>
+    
+    <!-- fr -->
+    <string-array name="score_fr">
+        <item>Game Over</item>
+        <item>Réponse Correcte</item>
+        <item>Réponse Incorrecte</item>
+        <item>Marquer</item>
+        <item>Taux Correcte</item>
+        <item>Retour</item>
+        <item>Examen</item>
+    </string-array>
+    
+    <!-- pt -->
+    <string-array name="score_pt">
+        <item>Game Over</item>
+        <item>Resposta Corretas</item>
+        <item>Resposta Erradas</item>
+        <item>Contagem</item>
+        <item>Taxa Corretas</item>
+        <item>De volta</item>
+        <item>Revisão</item>
+    </string-array>
+    
+    <!-- MAIN STATISTICS -->
+    <!-- en -->
+    <string-array name="main_statistics_en">
+        <item>General</item>
+        <item>Time Mode</item>
+        <item>No Time Mode</item>
+    </string-array>
+    
+    <!-- it -->
+    <string-array name="main_statistics_it">
+        <item>Generali</item>
+        <item>Modalitá a tempo</item>
+        <item>Modalitá non a tempo</item>
+    </string-array>
+    
+    <!-- es -->
+    <string-array name="main_statistics_es">
+        <item>General</item>
+        <item>Modo de tiempo</item>
+        <item>Sin modo de tiempo</item>
+    </string-array>
+    
+    <!-- fr -->
+    <string-array name="main_statistics_fr">
+        <item>Général</item>
+        <item>Mode de temps</item>
+        <item>Pas de mode du temps</item>
+    </string-array>
+    
+    <!-- pt -->
+    <string-array name="main_statistics_pt">
+        <item>Geral</item>
+        <item>Modo a tempo</item>
+        <item>Modo não a tempo</item>
+    </string-array>
+    
+    <!-- STATISTICS -->
+    <!-- en -->
+    <string-array name="statistics_en">
+        <item>Statistics</item>
+        <item>Plate Number</item>
+        <item>Eu Plate Number</item>
+        <item>Non-Eu Plate Number</item>
+        <item>Correct Answers</item>
+        <item>Wrong Answers</item>
+        <item>Most 5 plates generated</item>
+        <item>Least 5 plates generated</item>
+        <item>Most 5 Eu plates generated</item>
+        <item>Least 5 Eu plates generated</item>
+        <item>Most 5 non-Eu plates generated</item>
+        <item>Least 5 non-Eu plates generated</item>
+        <item>Most 3 languages chosen</item>
+        <item>Least 3 languages chosen</item>
+        <item>Most 3 theme chosen</item>
+        <item>Least 3 theme chosen</item>
+        <item>Best range chosen</item>
+        <item>Worst range chosen</item>
+        <item>Back</item>
+    </string-array>
+    
+    <!-- it -->
+    <string-array name="statistics_it">
+        <item>Statistiche</item>
+        <item>Numero di targhe</item>
+        <item>Numero di targhe europee</item>
+        <item>Numero di targhe non europee</item>
+        <item>Numero di risposte corrette</item>
+        <item>Numero di risposte sbagliate</item>
+        <item>Le 5 targhe piú generate</item>
+        <item>Le 5 targhe meno generate</item>
+        <item>Le 5 targhe europee piú generate</item>
+        <item>Le 5 targhe europee meno generate</item>
+        <item>Le 5 targhe non europee piú generate</item>
+        <item>Le 5 targhe non europee meno generate</item>
+        <item>Le 3 lingue piú scelte</item>
+        <item>Le 3 lingue meno scelte</item>
+        <item>I 3 temi piú scelti</item>
+        <item>I 3 temi meno scelti</item>
+        <item>Il range piú scelto</item>
+        <item>Il range meno scelto</item>
+        <item>Indietro</item>
+    </string-array>
+    
+    <!-- es -->
+    <string-array name="statistics_es">
+        <item>Estadística</item>
+        <item>Número de placas</item>
+        <item>Número de placas europeos</item>
+        <item>Número de placas no europeos</item>
+        <item>Número de respuestas correctas</item>
+        <item>Número de respuestas incorrectas</item>
+        <item>Las 5 placas más generados</item>
+        <item>Las 5 placas menos generados</item>
+        <item>Las 5 placas europeas más generados</item>
+        <item>Las 5 placas europeas menos generados</item>
+        <item>Las 5 placas no comunitarios más generados</item>
+        <item>Las 5 placas no comunitarios menos generados</item>
+        <item>Los 3 idiomas más opciones</item>
+        <item>Los 3 idiomas menos opciones</item>
+        <item>Los 3 temas más opciones</item>
+        <item>Los 3 temas menos opciones</item>
+        <item>El rango más elegido</item>
+        <item>El rango menos elegido</item>
+        <item>Atrás</item>
+    </string-array>
+    
+    <!-- fr -->
+    <string-array name="statistics_fr">
+        <item>Statistiques</item>
+        <item>Nombre de plaques</item>
+        <item>Nombre de plaques européennes</item>
+        <item>Nombre de plaques non-européennes</item>
+        <item>Nombre de réponses correctes</item>
+        <item>Nombre de mauvaises réponses</item>
+        <item>5 plaques ont généré plus</item>
+        <item>5 plaques ont généré moins</item>
+        <item>5 plaques européennes ont généré plus</item>
+        <item>5 plaques européennes ont généré moins</item>
+        <item>5 plaques non-européens ont généré plus</item>
+        <item>5 plaques non-européens ont généré moins</item>
+        <item>3 langues plus de choix</item>
+        <item>3 langues moins de choix</item>
+        <item>3 autres thèmes sélectionnés</item>
+        <item>3 thèmes choisis moins </item>
+        <item>La gamme choisie plus</item>
+        <item>La gamme choisie moins</item>
+        <item>Retour</item>
+    </string-array>
+    
+    <!-- pt -->
+    <string-array name="statistics_pt">
+        <item>Estatísticas</item>
+        <item>Número de placas</item>
+        <item>Número de placas europeias</item>
+        <item>Número de placas não europeus</item>
+        <item>Número de respostas corretas</item>
+        <item>Número de respostas erradas</item>
+        <item>5 placas gerou mais</item>
+        <item>5 placas gerado menos</item>
+        <item>5 placas europeias geraram mais</item>
+        <item>5 placas europeias geraram menos</item>
+        <item>5 placas não europeus gerou mais</item>
+        <item>5 placas não europeus gerou menos</item>
+        <item>3 línguas mais opções</item>
+        <item>3 línguas menos opções</item>
+        <item>3 temas mais selecionados</item>
+        <item>3 temas menos selecionados</item>
+        <item>A faixa escolhida mais</item>
+        <item>A faixa escolhida menos</item>
+        <item>Voltar</item>
+    </string-array>
+    
+    <!-- SERVER ERROR -->
+    <!-- en -->
+    <string-array name="server_error_en">
+        <item>No error</item>
+        <item>General Error</item>
+        <item>Connection Error</item>
+        <item>Protocol Error</item>
+        <item>Stream Error</item>
+        <item>Data cannot be processed</item>
+        <item>New update available</item>
+        <item>No update available</item>
+    </string-array>
+    
+    <!-- it -->
+    <string-array name="server_error_it">
+        <item>Nessun errore</item>
+        <item>Errore generale</item>
+        <item>Errore di connessione</item>
+        <item>Errore di protocollo</item>
+        <item>Errore trasferimento dati</item>
+        <item>I dati non possono essere processati</item>
+        <item>Nuovo aggiornamento disponibile</item>
+        <item>Nessun nuovo aggiornamento</item>
+    </string-array>
+    
+    <!-- es -->
+    <string-array name="server_error_es">
+        <item>Ningún error</item>
+        <item>Error generales</item>
+        <item>Error de conexión</item>
+        <item>Error de protocolo</item>
+        <item>Error de transferencia de datos</item>
+        <item>Datos no pueden ser procesados</item>
+        <item>Nueva actualización disponible</item>
+        <item>No hay nuevos actualizaciones</item>
+    </string-array>
+    
+    <!-- fr -->
+    <string-array name="server_error_fr">
+        <item>Aucune erreur</item>
+        <item>Erreur général</item>
+        <item>Erreur de connexion</item>
+        <item>Erreur de protocole</item>
+        <item>Erreur de transfert de données</item>
+        <item>Données ne peuvent pas être traitées</item>
+        <item>Nouvelle mise à jour disponible</item>
+        <item>Pas de nouvelles mises à jour</item>
+    </string-array>
+    
+    <!-- pt -->
+    <string-array name="server_error_pt">
+        <item>Nenhum erro</item>
+        <item>Erro Geral</item>
+        <item>Erro de conexão</item>
+        <item>Erro de protocolo</item>
+        <item>Erro de transferência de dados</item>
+        <item>Dados não pode ser processado</item>
+        <item>Nova atualização disponível</item>
+        <item>Não há novas atualizações</item>
+    </string-array>
+    
+    <!-- ABOUT -->
+    <!-- en -->
+    <string-array name="about_en">
+        <item>Version:</item>
+        <item>Build Number:</item>
+        <item>Developer:</item>
+        <item>Acknowledgements:</item>
+        <item>Back</item>
+    </string-array>
+    
+    <!-- it -->
+    <string-array name="about_it">
+        <item>Versione:</item>
+        <item>Numero Build:</item>
+        <item>Sviluppatore:</item>
+        <item>Ringraziamenti:</item>
+        <item>Indietro</item>
+    </string-array>
+    
+    <!-- es -->
+    <string-array name="about_es">
+        <item>Versión:</item>
+        <item>Número de compilación:</item>
+        <item>Desarrollador:</item>
+        <item>Agradecimientos:</item>
+        <item>Atrás</item>
+    </string-array>
+    
+    <!-- fr -->
+    <string-array name="about_fr">
+        <item>Version:</item>
+        <item>Numéro de build:</item>
+        <item>Développeur:</item>
+        <item>Remerciements:</item>
+        <item>Retour</item>
+    </string-array>
+    
+    <!-- pt -->
+    <string-array name="about_pt">
+        <item>Versão:</item>
+        <item>Número da compilação:</item>
+        <item>Desenvolvedor:</item>
+        <item>Agradecimentos:</item>
+        <item>Voltar</item>
+    </string-array>
+    
+    <!-- ACNKOWLEDGEMENTS -->
+    <!-- en -->
+    <string name="acknowledgements_en">
+    The realization of this game has been made 
+    with non-profit purpose and the sole purpose of entertainment. 
+    Any reference to people or things is purely coincidental. 
+    We thank also the following sites for the material 
+    provided from which was inspired by the graphic design.\n \n
+    <a ref="http://www.licenseplates.tv">Licenseplates.tv</a> \n
+    <a ref="http://www.theus50.com">TheUS50.com</a> \n
+    <a ref="http://www.dafont.com/toms-handwritten-new.font">dafont.com/toms-handwritten-new.font</a> \n
+    <a ref="http://www.iconarchive.com/">Iconarchive.com</a> \n
+    <a ref="http://www.psdgraphics.com/">Psdgraphics.com</a> \n
+    <a ref="http://soundfxnow.com/">soundfxnow.com</a>        
+    </string>
+    
+    <!-- it -->
+    <string name="acknowledgements_it">
+    La realizzazione di questo gioco é stata fatta 
+    con fini non lucrativi e come unico scopo il divertimento. 
+    Ogni riferimento a persone o cose é puramente casuale. 
+    Si ringraziano, inoltre, i seguenti siti per il materiale
+    fornito da cui é stato preso spunto per la realizzazione grafica. \n \n
+    <a ref="http://www.licenseplates.tv">Licenseplates.tv</a> \n
+    <a ref="http://www.theus50.com">TheUS50.com</a> \n
+    <a ref="http://www.dafont.com/toms-handwritten-new.font">dafont.com/toms-handwritten-new.font</a> \n
+    <a ref="http://www.iconarchive.com/">Iconarchive.com</a> \n
+    <a ref="http://www.psdgraphics.com/">Psdgraphics.com</a> \n
+    <a ref="http://soundfxnow.com/">soundfxnow.com</a>
+    </string>
+    
+    <!-- es -->
+    <string name="acknowledgements_es">
+    La realización de este juego se ha hecho 
+    con finalidad no lucrativa y con el único propósito de entretenimiento. 
+    Cualquier referencia a personas o cosas es pura coincidencia. 
+    Agradecemos también los siguientes sitios para el material 
+    que fue proporcionada por fue inspirado por el diseño gráfico.\n \n
+    <a ref="http://www.licenseplates.tv">Licenseplates.tv</a> \n
+    <a ref="http://www.theus50.com">TheUS50.com</a> \n
+    <a ref="http://www.dafont.com/toms-handwritten-new.font">dafont.com/toms-handwritten-new.font</a> \n
+    <a ref="http://www.iconarchive.com/">Iconarchive.com</a> \n
+    <a ref="http://www.psdgraphics.com/">Psdgraphics.com</a> \n
+    <a ref="http://soundfxnow.com/">soundfxnow.com</a>    
+    </string>
+    
+    <!-- fr -->
+    <string name="acknowledgements_fr">
+    La réalisation de ce jeu a été faite 
+    avec un but non lucratif et dans le seul but de divertissement. 
+    Toute référence à des personnes ou des choses est purement fortuite. 
+    Nous remercions également les sites suivants pour le matériel 
+    qui a été fourni par a été inspiré par la conception graphique.\n \n
+    <a ref="http://www.licenseplates.tv">Licenseplates.tv</a> \n
+    <a ref="http://www.theus50.com">TheUS50.com</a> \n
+    <a ref="http://www.dafont.com/toms-handwritten-new.font">dafont.com/toms-handwritten-new.font</a> \n
+    <a ref="http://www.iconarchive.com/">Iconarchive.com</a> \n
+    <a ref="http://www.psdgraphics.com/">Psdgraphics.com</a> \n
+    <a ref="http://soundfxnow.com/">soundfxnow.com</a>   
+    </string>
+    
+    <!-- pt -->
+    <string name="acknowledgements_pt">
+    A realização deste jogo foi feito 
+    com fins não lucrativos e o único propósito de entretenimento. 
+    Qualquer referência a pessoas ou coisas é mera coincidência. 
+    Agradecemos também os seguintes sites para o material 
+    que foi fornecida pelo foi inspirado no design gráfico.\n \n
+    <a ref="http://www.licenseplates.tv">Licenseplates.tv</a> \n
+    <a ref="http://www.theus50.com">TheUS50.com</a> \n
+    <a ref="http://www.dafont.com/toms-handwritten-new.font">dafont.com/toms-handwritten-new.font</a> \n
+    <a ref="http://www.iconarchive.com/">Iconarchive.com</a> \n
+    <a ref="http://www.psdgraphics.com/">Psdgraphics.com</a> \n
+    <a ref="http://soundfxnow.com/">soundfxnow.com</a>   
+    </string>
+    
+    
+    <!-- MAIN LIST -->
+    <!-- en -->
+    <string-array name="main_list_en">
+        <item>EUROPE</item>
+        <item>NORTH AMERICA</item>
+        <item>SOUTH AMERICA</item>
+        <item>ASIA</item>
+        <item>AFRICA</item>
+        <item>AUSTRALIA</item>
+    </string-array>
+    
+    <!-- it -->
+    <string-array name="main_list_it">
+        <item>EUROPA</item>
+        <item>NORD AMERICA</item>
+        <item>SUD AMERICA</item>
+        <item>ASIA</item>
+        <item>AFRICA</item>
+        <item>AUSTRALIA</item>
+    </string-array>
+    
+    <!-- es -->
+    <string-array name="main_list_es">
+        <item>EUROPA</item>
+        <item>AMÉRICA DEL NORTE</item>
+        <item>AMÉRICA DEL SUR</item>
+        <item>ASIA</item>
+        <item>ÁFRICA</item>
+        <item>AUSTRALIA</item>
+    </string-array>
+    
+    <!-- fr -->
+    <string-array name="main_list_fr">
+        <item>EUROPE</item>
+        <item>AMÉRIQUE DU NORD</item>
+        <item>AMÉRIQUE DU SUD</item>
+        <item>ASIA</item>
+        <item>AFRIQUE</item>
+        <item>AUSTRALIE</item>
+    </string-array>
+    
+    <!-- pt -->
+    <string-array name="main_list_pt">
+        <item>EUROPA</item>
+        <item>AMÉRICA DO NORTE</item>
+        <item>AMÉRICA DO SUL</item>
+        <item>ÁSIA</item>
+        <item>ÁFRICA</item>
+        <item>AUSTRÁLIA</item>
+    </string-array>
+    
+    <!-- STATS ASYNC -->
+    <string name="stats_async_en">No Results</string>
+    <string name="stats_async_it">Nessun Risultato</string>
+    <string name="stats_async_es">Sin resultado</string>
+    <string name="stats_async_fr">Pas de résultat</string>
+    <string name="stats_async_pt">Nenhum Resultado</string>
+    
+    <!-- SCORE NEW RECORD -->
+    <string name="score_record_en">New Record</string>
+    <string name="score_record_it">Nuovo record</string>
+    <string name="score_record_es">Nuevo récord</string>
+    <string name="score_record_fr">Nouveau record</string>
+    <string name="score_record_pt">Novo recorde</string>
+    
+</resources>

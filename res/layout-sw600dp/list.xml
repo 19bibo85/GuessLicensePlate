@@ -1,0 +1,21 @@
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@android:color/white"
+    android:gravity="center_horizontal"
+    android:padding="10dp" >
+    
+    <ListView 
+	   android:id="@+id/PlateListView" 
+	   android:layout_height="wrap_content"
+	   android:layout_width="fill_parent"/>
+    
+	<TextView
+        android:id="@android:id/empty"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />    
+     
+</LinearLayout>

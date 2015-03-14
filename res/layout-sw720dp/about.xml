@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ScrollView 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:id="@+id/scroll_view"
+	android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#FFFFFF">
+
+	<LinearLayout 
+	    android:id="@+id/About"  
+	    style="@style/linear_layout_10inch" >
+	    
+	    <ImageView
+            android:id="@+id/logo"
+            style="@style/logo"
+            android:contentDescription="@+id/image_plate" />
+	    
+	    <TextView
+	        android:id="@+id/lab_version"
+	        style="@style/textView_10inch"
+	        android:layout_gravity="left"
+	        android:background="@android:color/transparent"
+	        android:gravity="center_horizontal"
+	        android:paddingTop="15dp"
+	        android:text="@+id/lab_version" />
+        
+        <TextView
+            android:id="@+id/version"
+            style="@style/textView_10inch"
+            android:background="@android:color/transparent"
+            android:gravity="center_horizontal"
+            android:text="@+id/version"
+            android:textSize="60sp"
+            android:layout_marginTop="0dp"
+            android:textStyle="normal" />
+	    
+<!-- 		<TextView -->
+<!-- 		    android:id="@+id/lab_build" -->
+<!-- 		    style="@style/textView" -->
+<!-- 		    android:background="@android:color/transparent" -->
+<!-- 		    android:gravity="center_horizontal" -->
+<!-- 		    android:paddingTop="5dp" -->
+<!-- 		    android:text="@+id/lab_build" /> -->
+        
+<!--         <TextView -->
+<!--             android:id="@+id/build" -->
+<!--             style="@style/textView" -->
+<!--             android:background="@android:color/transparent" -->
+<!--             android:gravity="center_horizontal" -->
+<!--             android:text="@+id/build" -->
+<!--             android:textSize="16sp" -->
+<!--             android:layout_marginTop="0dp" -->
+<!--             android:textStyle="normal" /> -->
+		
+		<TextView
+		    android:id="@+id/lab_developer"
+		    style="@style/textView_10inch"
+		    android:background="@android:color/transparent"
+		    android:gravity="center_horizontal"
+		    android:paddingTop="15dp"
+		    android:text="@+id/lab_developer" />
+        
+        <TextView
+            android:id="@+id/developer"
+            style="@style/textView_10inch"
+            android:background="@android:color/transparent"
+            android:gravity="center_horizontal"
+            android:text="@+id/developer"
+            android:textSize="48sp"
+            android:layout_marginTop="0dp"
+            android:textStyle="normal" />
+        
+        <TextView
+            android:id="@+id/lab_acknowledge"
+            style="@style/textView_10inch"
+            android:background="@android:color/transparent"
+            android:gravity="center_horizontal"
+            android:paddingTop="15dp"
+            android:text="@+id/lab_acknowledge" />
+        
+        <TextView
+            android:id="@+id/acknowledge"
+            style="@style/textView_10inch"
+            android:background="@android:color/transparent"
+            android:gravity="center_horizontal"
+            android:text="@+id/acknowledge"
+            android:textSize="48sp"
+            android:layout_marginTop="0dp"
+            android:textStyle="normal" 
+            android:autoLink="web" />
+        
+        <!-- Button -->
+	   	<Button 
+		    android:id="@+id/back"
+			style="@style/button_10inch"
+			android:text="@+id/back" />	
+	</LinearLayout>
+</ScrollView>
