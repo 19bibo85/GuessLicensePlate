@@ -25,6 +25,6 @@
             android:key="pref_sound" >
         </CheckBoxPreference>
         
-        <com.guess.license.plate.OptionDialogPreference
+        <com.guess.license.plate.Repository.OptionDialogPreference
 	        android:key="pref_clear" />
 </PreferenceScreen>
