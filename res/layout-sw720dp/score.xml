@@ -125,12 +125,6 @@
 	    android:id="@+id/back"	    
 		style="@style/button_10inch"
 		android:text="@+id/back" />
-   	
-   	<com.inmobi.monetization.IMBanner
-		    android:id="@+id/adView"
-		    style="@style/inmobi_ad_10inch"
-		    adSize="11"
-			appId="47fdaff06b1c4a608814ddb615a3f064" />
 	
 </TableLayout>
 </ScrollView>

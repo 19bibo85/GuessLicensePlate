@@ -5,7 +5,7 @@ public class WebConf {
 	// Database connection string
 	//public static final String DB_CONN = "http://192.168.0.16:8080/";
 	
-	public static final String DB_CONN = "http://www.albertotosibrandi.comeze.com/";
+	public static final String DB_CONN = "http://albertotosibrandi.comeze.com/";
 	
 	// Database URI path
 	public static final String URI_PATH = "GuessLicensePlatePHP/src/";
