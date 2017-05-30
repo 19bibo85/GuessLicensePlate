@@ -29,7 +29,7 @@ import com.guess.license.plate.Repository.Utility;
 /**
  * @author Alberto Tosi Brandi
  * 
- * This class handle the About activity test
+ * This class handle the About activity
  *
  */
 public class AboutActivity extends SherlockActivity{
