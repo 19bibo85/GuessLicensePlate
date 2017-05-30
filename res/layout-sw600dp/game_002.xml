@@ -53,12 +53,6 @@
 		    android:id="@+id/button4" 
 		    style="@style/button_7inch"
 			android:text="@id/button4" />
-		
-		<com.inmobi.monetization.IMBanner
-		    android:id="@+id/adView"
-		    style="@style/inmobi_ad_7inch"
-		    adSize="11"
-			appId="47fdaff06b1c4a608814ddb615a3f064" />
 	</LinearLayout>
 
 </ScrollView>
