@@ -1,5 +1,5 @@
 <manifest package="com.guess.license.plate.release"
-    android:versionCode="4"
+    android:versionCode="5"
     android:versionName="1.8" xmlns:android="http://schemas.android.com/apk/res/android">
  
     <uses-sdk
@@ -9,11 +9,10 @@
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 
-    <application
-        android:allowBackup="true" 
+    <application         
         android:theme="@style/GuessLicensePlateTheme" 
         android:label="Guess Licese Plate" 
-        android:icon="@drawable/ic_launcher" android:logo="@drawable/logo" android:allowTaskReparenting="false">
+        android:icon="@drawable/ic_launcher" android:logo="@drawable/logo" android:allowTaskReparenting="false" android:debuggable="false">
         
         <activity
             android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen"
