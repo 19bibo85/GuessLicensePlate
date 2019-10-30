@@ -1,6 +1,6 @@
 <manifest package="com.guess.license.plate.release"
     android:versionCode="6"
-    android:versionName="1.9" xmlns:android="http://schemas.android.com/apk/res/android" android:isolatedSplits="false">
+    android:versionName="1.9" xmlns:android="http://schemas.android.com/apk/res/android">
  
     <uses-sdk
         android:minSdkVersion="11"
@@ -12,7 +12,7 @@
     <application         
         android:theme="@style/GuessLicensePlateTheme" 
         android:label="Guess Licese Plate" 
-        android:icon="@drawable/ic_launcher" android:logo="@drawable/logo" android:allowTaskReparenting="false" android:debuggable="false">
+        android:icon="@drawable/ic_launcher" android:logo="@drawable/logo" android:allowTaskReparenting="false">
         
         <activity
             android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen"
